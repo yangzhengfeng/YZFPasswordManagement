@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4444B432EB83E9FB479FD046 /* Pods_YZFPasswordManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0573252EA11C5F1248B96174 /* Pods_YZFPasswordManagement.framework */; };
+		FC434B422085CDF400853BAB /* YZFPasswordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC434B412085CDF400853BAB /* YZFPasswordDetailView.swift */; };
+		FC434B442085CE8800853BAB /* YZFPasswordDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC434B432085CE8800853BAB /* YZFPasswordDetailViewModel.swift */; };
+		FC434B462085D9F400853BAB /* YZFSelectTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC434B452085D9F400853BAB /* YZFSelectTypeCell.swift */; };
+		FC5950812072105800882A8A /* YZFMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5950802072105800882A8A /* YZFMainTableViewCell.swift */; };
+		FC7ABFAC208486A4007F0290 /* YZFPasswordListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFAB208486A4007F0290 /* YZFPasswordListCell.swift */; };
+		FC7ABFAE208486F3007F0290 /* YZFPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFAD208486F3007F0290 /* YZFPasswordModel.swift */; };
+		FC7ABFB02084870A007F0290 /* YZFPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFAF2084870A007F0290 /* YZFPasswordViewModel.swift */; };
+		FC7ABFB22084879D007F0290 /* YZFPasswordTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFB12084879D007F0290 /* YZFPasswordTableView.swift */; };
+		FC7AC0202084A453007F0290 /* YZFTableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AC01F2084A453007F0290 /* YZFTableViewProtocol.swift */; };
+		FC7AC0232084A7FE007F0290 /* YZFBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AC0222084A7FE007F0290 /* YZFBaseModel.swift */; };
+		FC7AC02A2084AC38007F0290 /* YZFPasswordDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AC0292084AC38007F0290 /* YZFPasswordDetailVC.swift */; };
+		FCBFC177207F60FB006CE942 /* YZFPasswordListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFC176207F60FB006CE942 /* YZFPasswordListVC.swift */; };
+		FCBFC1992080B3AD006CE942 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBFC1972080B3AD006CE942 /* icon@2x.png */; };
+		FCBFC19A2080B3AD006CE942 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBFC1982080B3AD006CE942 /* icon@3x.png */; };
+		FCD3C719206A2D4E006CB6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C718206A2D4E006CB6A9 /* AppDelegate.swift */; };
+		FCD3C71B206A2D4E006CB6A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C71A206A2D4E006CB6A9 /* ViewController.swift */; };
+		FCD3C71E206A2D4E006CB6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD3C71C206A2D4E006CB6A9 /* Main.storyboard */; };
+		FCD3C721206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C71F206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodeld */; };
+		FCD3C723206A2D4E006CB6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD3C722206A2D4E006CB6A9 /* Assets.xcassets */; };
+		FCD3C726206A2D4E006CB6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD3C724206A2D4E006CB6A9 /* LaunchScreen.storyboard */; };
+		FCD3C732206A3153006CB6A9 /* YZFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C731206A3153006CB6A9 /* YZFBaseViewController.swift */; };
+		FCD3C734206A31AA006CB6A9 /* YZFMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C733206A31AA006CB6A9 /* YZFMainVC.swift */; };
+		FCD3C737206A3209006CB6A9 /* YZFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C736206A3209006CB6A9 /* YZFNavigationController.swift */; };
+		FCD3C7E2206C92A0006CB6A9 /* YZFMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C7E1206C92A0006CB6A9 /* YZFMainTableView.swift */; };
+		FCD3C7E4206C92D2006CB6A9 /* YZFMainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C7E3206C92D2006CB6A9 /* YZFMainModel.swift */; };
+		FCD3C7E6206C92E3006CB6A9 /* YZFMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C7E5206C92E3006CB6A9 /* YZFMainViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03BE23729776E0F8E5D182C5 /* Pods-YZFPasswordManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZFPasswordManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZFPasswordManagement/Pods-YZFPasswordManagement.release.xcconfig"; sourceTree = "<group>"; };
+		0573252EA11C5F1248B96174 /* Pods_YZFPasswordManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZFPasswordManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3104ED5D2D78279CF77CF075 /* Pods-YZFPasswordManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZFPasswordManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZFPasswordManagement/Pods-YZFPasswordManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		FC434B412085CDF400853BAB /* YZFPasswordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordDetailView.swift; sourceTree = "<group>"; };
+		FC434B432085CE8800853BAB /* YZFPasswordDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordDetailViewModel.swift; sourceTree = "<group>"; };
+		FC434B452085D9F400853BAB /* YZFSelectTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFSelectTypeCell.swift; sourceTree = "<group>"; };
+		FC5950802072105800882A8A /* YZFMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainTableViewCell.swift; sourceTree = "<group>"; };
+		FC7ABFAB208486A4007F0290 /* YZFPasswordListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordListCell.swift; sourceTree = "<group>"; };
+		FC7ABFAD208486F3007F0290 /* YZFPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordModel.swift; sourceTree = "<group>"; };
+		FC7ABFAF2084870A007F0290 /* YZFPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordViewModel.swift; sourceTree = "<group>"; };
+		FC7ABFB12084879D007F0290 /* YZFPasswordTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordTableView.swift; sourceTree = "<group>"; };
+		FC7AC01F2084A453007F0290 /* YZFTableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFTableViewProtocol.swift; sourceTree = "<group>"; };
+		FC7AC0222084A7FE007F0290 /* YZFBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFBaseModel.swift; sourceTree = "<group>"; };
+		FC7AC0292084AC38007F0290 /* YZFPasswordDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordDetailVC.swift; sourceTree = "<group>"; };
+		FCBFC176207F60FB006CE942 /* YZFPasswordListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordListVC.swift; sourceTree = "<group>"; };
+		FCBFC1972080B3AD006CE942 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		FCBFC1982080B3AD006CE942 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
+		FCD3C715206A2D4E006CB6A9 /* YZFPasswordManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZFPasswordManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD3C718206A2D4E006CB6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCD3C71A206A2D4E006CB6A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCD3C71D206A2D4E006CB6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD3C720206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YZFPasswordManagement.xcdatamodel; sourceTree = "<group>"; };
+		FCD3C722206A2D4E006CB6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD3C725206A2D4E006CB6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD3C727206A2D4E006CB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD3C731206A3153006CB6A9 /* YZFBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFBaseViewController.swift; sourceTree = "<group>"; };
+		FCD3C733206A31AA006CB6A9 /* YZFMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainVC.swift; sourceTree = "<group>"; };
+		FCD3C736206A3209006CB6A9 /* YZFNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFNavigationController.swift; sourceTree = "<group>"; };
+		FCD3C7E1206C92A0006CB6A9 /* YZFMainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainTableView.swift; sourceTree = "<group>"; };
+		FCD3C7E3206C92D2006CB6A9 /* YZFMainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainModel.swift; sourceTree = "<group>"; };
+		FCD3C7E5206C92E3006CB6A9 /* YZFMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD3C712206A2D4E006CB6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4444B432EB83E9FB479FD046 /* Pods_YZFPasswordManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC466B760AE8DE7C86AB51A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0573252EA11C5F1248B96174 /* Pods_YZFPasswordManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC3C890E850D803D6A207D73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3104ED5D2D78279CF77CF075 /* Pods-YZFPasswordManagement.debug.xcconfig */,
+				03BE23729776E0F8E5D182C5 /* Pods-YZFPasswordManagement.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC7ABFA820848601007F0290 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC7ABFAB208486A4007F0290 /* YZFPasswordListCell.swift */,
+				FC7ABFB12084879D007F0290 /* YZFPasswordTableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC7ABFA920848609007F0290 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC7ABFAD208486F3007F0290 /* YZFPasswordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC7ABFAA20848611007F0290 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC7ABFAF2084870A007F0290 /* YZFPasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC7AC01C2084A171007F0290 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FC7AC01F2084A453007F0290 /* YZFTableViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FC7AC0212084A762007F0290 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC7AC0222084A7FE007F0290 /* YZFBaseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC7AC0242084ABAD007F0290 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC7AC0292084AC38007F0290 /* YZFPasswordDetailVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FC7AC0252084ABBB007F0290 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC434B412085CDF400853BAB /* YZFPasswordDetailView.swift */,
+				FC434B452085D9F400853BAB /* YZFSelectTypeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC7AC0262084ABC2007F0290 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC7AC0272084ABCA007F0290 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC434B432085CE8800853BAB /* YZFPasswordDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCBFC172207F6055006CE942 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFC174207F6082006CE942 /* PasswordDetail */,
+				FCBFC173207F6069006CE942 /* PasswordList */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		FCBFC173207F6069006CE942 /* PasswordList */ = {
+			isa = PBXGroup;
+			children = (
+				FC7ABFAA20848611007F0290 /* ViewModel */,
+				FC7ABFA920848609007F0290 /* Model */,
+				FC7ABFA820848601007F0290 /* View */,
+				FCBFC175207F6093006CE942 /* ViewController */,
+			);
+			path = PasswordList;
+			sourceTree = "<group>";
+		};
+		FCBFC174207F6082006CE942 /* PasswordDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FC7AC0272084ABCA007F0290 /* ViewModel */,
+				FC7AC0262084ABC2007F0290 /* Model */,
+				FC7AC0252084ABBB007F0290 /* View */,
+				FC7AC0242084ABAD007F0290 /* ViewController */,
+			);
+			path = PasswordDetail;
+			sourceTree = "<group>";
+		};
+		FCBFC175207F6093006CE942 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFC176207F60FB006CE942 /* YZFPasswordListVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FCBFC1962080B32B006CE942 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFC1972080B3AD006CE942 /* icon@2x.png */,
+				FCBFC1982080B3AD006CE942 /* icon@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FCD3C70C206A2D4E006CB6A9 = {
+			isa = PBXGroup;
+			children = (
+				FCBFC1962080B32B006CE942 /* Images */,
+				FCD3C72D206A30B3006CB6A9 /* Classes */,
+				FCD3C717206A2D4E006CB6A9 /* YZFPasswordManagement */,
+				FCD3C716206A2D4E006CB6A9 /* Products */,
+				FC3C890E850D803D6A207D73 /* Pods */,
+				1AC466B760AE8DE7C86AB51A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD3C716206A2D4E006CB6A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD3C715206A2D4E006CB6A9 /* YZFPasswordManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD3C717206A2D4E006CB6A9 /* YZFPasswordManagement */ = {
+			isa = PBXGroup;
+			children = (
+				FCD3C718206A2D4E006CB6A9 /* AppDelegate.swift */,
+				FCD3C71A206A2D4E006CB6A9 /* ViewController.swift */,
+				FCD3C71C206A2D4E006CB6A9 /* Main.storyboard */,
+				FCD3C722206A2D4E006CB6A9 /* Assets.xcassets */,
+				FCD3C724206A2D4E006CB6A9 /* LaunchScreen.storyboard */,
+				FCD3C727206A2D4E006CB6A9 /* Info.plist */,
+				FCD3C71F206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodeld */,
+			);
+			path = YZFPasswordManagement;
+			sourceTree = "<group>";
+		};
+		FCD3C72D206A30B3006CB6A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC7AC0212084A762007F0290 /* Models */,
+				FC7AC01C2084A171007F0290 /* Protocol */,
+				FCD3C735206A31C5006CB6A9 /* NavigationController */,
+				FCD3C730206A30EE006CB6A9 /* Bases */,
+				FCD3C72E206A30C1006CB6A9 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FCD3C72E206A30C1006CB6A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFC172207F6055006CE942 /* Password */,
+				FCD3C72F206A30D1006CB6A9 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FCD3C72F206A30D1006CB6A9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FCD3C7DD206C91E6006CB6A9 /* ViewController */,
+				FCD3C7E0206C9215006CB6A9 /* Model */,
+				FCD3C7DF206C920E006CB6A9 /* View */,
+				FCD3C7DE206C9201006CB6A9 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FCD3C730206A30EE006CB6A9 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				FCD3C731206A3153006CB6A9 /* YZFBaseViewController.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		FCD3C735206A31C5006CB6A9 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				FCD3C736206A3209006CB6A9 /* YZFNavigationController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		FCD3C7DD206C91E6006CB6A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCD3C733206A31AA006CB6A9 /* YZFMainVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FCD3C7DE206C9201006CB6A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCD3C7E5206C92E3006CB6A9 /* YZFMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCD3C7DF206C920E006CB6A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCD3C7E1206C92A0006CB6A9 /* YZFMainTableView.swift */,
+				FC5950802072105800882A8A /* YZFMainTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCD3C7E0206C9215006CB6A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCD3C7E3206C92D2006CB6A9 /* YZFMainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD3C714206A2D4E006CB6A9 /* YZFPasswordManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD3C72A206A2D4E006CB6A9 /* Build configuration list for PBXNativeTarget "YZFPasswordManagement" */;
+			buildPhases = (
+				D05D8C0A5E1AD814F87D9FC9 /* [CP] Check Pods Manifest.lock */,
+				FCD3C711206A2D4E006CB6A9 /* Sources */,
+				FCD3C712206A2D4E006CB6A9 /* Frameworks */,
+				FCD3C713206A2D4E006CB6A9 /* Resources */,
+				3F070B849EE389E36687EC8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZFPasswordManagement;
+			productName = YZFPasswordManagement;
+			productReference = FCD3C715206A2D4E006CB6A9 /* YZFPasswordManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD3C70D206A2D4E006CB6A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Dylan;
+				TargetAttributes = {
+					FCD3C714206A2D4E006CB6A9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCD3C710206A2D4E006CB6A9 /* Build configuration list for PBXProject "YZFPasswordManagement" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD3C70C206A2D4E006CB6A9;
+			productRefGroup = FCD3C716206A2D4E006CB6A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD3C714206A2D4E006CB6A9 /* YZFPasswordManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD3C713206A2D4E006CB6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD3C726206A2D4E006CB6A9 /* LaunchScreen.storyboard in Resources */,
+				FCBFC1992080B3AD006CE942 /* icon@2x.png in Resources */,
+				FCBFC19A2080B3AD006CE942 /* icon@3x.png in Resources */,
+				FCD3C723206A2D4E006CB6A9 /* Assets.xcassets in Resources */,
+				FCD3C71E206A2D4E006CB6A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F070B849EE389E36687EC8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YZFPasswordManagement/Pods-YZFPasswordManagement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YZFPasswordManagement/Pods-YZFPasswordManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05D8C0A5E1AD814F87D9FC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZFPasswordManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD3C711206A2D4E006CB6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD3C7E6206C92E3006CB6A9 /* YZFMainViewModel.swift in Sources */,
+				FCD3C721206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodeld in Sources */,
+				FCD3C732206A3153006CB6A9 /* YZFBaseViewController.swift in Sources */,
+				FCD3C71B206A2D4E006CB6A9 /* ViewController.swift in Sources */,
+				FC7AC02A2084AC38007F0290 /* YZFPasswordDetailVC.swift in Sources */,
+				FCD3C7E2206C92A0006CB6A9 /* YZFMainTableView.swift in Sources */,
+				FC7AC0232084A7FE007F0290 /* YZFBaseModel.swift in Sources */,
+				FC7AC0202084A453007F0290 /* YZFTableViewProtocol.swift in Sources */,
+				FCD3C7E4206C92D2006CB6A9 /* YZFMainModel.swift in Sources */,
+				FC434B422085CDF400853BAB /* YZFPasswordDetailView.swift in Sources */,
+				FC7ABFB22084879D007F0290 /* YZFPasswordTableView.swift in Sources */,
+				FC5950812072105800882A8A /* YZFMainTableViewCell.swift in Sources */,
+				FC7ABFB02084870A007F0290 /* YZFPasswordViewModel.swift in Sources */,
+				FCBFC177207F60FB006CE942 /* YZFPasswordListVC.swift in Sources */,
+				FC7ABFAE208486F3007F0290 /* YZFPasswordModel.swift in Sources */,
+				FC7ABFAC208486A4007F0290 /* YZFPasswordListCell.swift in Sources */,
+				FC434B462085D9F400853BAB /* YZFSelectTypeCell.swift in Sources */,
+				FC434B442085CE8800853BAB /* YZFPasswordDetailViewModel.swift in Sources */,
+				FCD3C719206A2D4E006CB6A9 /* AppDelegate.swift in Sources */,
+				FCD3C734206A31AA006CB6A9 /* YZFMainVC.swift in Sources */,
+				FCD3C737206A3209006CB6A9 /* YZFNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCD3C71C206A2D4E006CB6A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD3C71D206A2D4E006CB6A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD3C724206A2D4E006CB6A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD3C725206A2D4E006CB6A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD3C728206A2D4E006CB6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCD3C729206A2D4E006CB6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD3C72B206A2D4E006CB6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3104ED5D2D78279CF77CF075 /* Pods-YZFPasswordManagement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP6MS9U2JD;
+				INFOPLIST_FILE = YZFPasswordManagement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianshang.ls.YZFPasswordManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCD3C72C206A2D4E006CB6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BE23729776E0F8E5D182C5 /* Pods-YZFPasswordManagement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP6MS9U2JD;
+				INFOPLIST_FILE = YZFPasswordManagement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianshang.ls.YZFPasswordManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD3C710206A2D4E006CB6A9 /* Build configuration list for PBXProject "YZFPasswordManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD3C728206A2D4E006CB6A9 /* Debug */,
+				FCD3C729206A2D4E006CB6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD3C72A206A2D4E006CB6A9 /* Build configuration list for PBXNativeTarget "YZFPasswordManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD3C72B206A2D4E006CB6A9 /* Debug */,
+				FCD3C72C206A2D4E006CB6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCD3C71F206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCD3C720206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodel */,
+			);
+			currentVersion = FCD3C720206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodel */;
+			path = YZFPasswordManagement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCD3C70D206A2D4E006CB6A9 /* Project object */;
+}

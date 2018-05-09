@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4444B432EB83E9FB479FD046 /* Pods_YZFPasswordManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0573252EA11C5F1248B96174 /* Pods_YZFPasswordManagement.framework */; };
-		FC434B422085CDF400853BAB /* YZFPasswordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC434B412085CDF400853BAB /* YZFPasswordDetailView.swift */; };
-		FC434B442085CE8800853BAB /* YZFPasswordDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC434B432085CE8800853BAB /* YZFPasswordDetailViewModel.swift */; };
-		FC434B462085D9F400853BAB /* YZFSelectTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC434B452085D9F400853BAB /* YZFSelectTypeCell.swift */; };
-		FC5950812072105800882A8A /* YZFMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5950802072105800882A8A /* YZFMainTableViewCell.swift */; };
-		FC7ABFAC208486A4007F0290 /* YZFPasswordListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFAB208486A4007F0290 /* YZFPasswordListCell.swift */; };
-		FC7ABFAE208486F3007F0290 /* YZFPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFAD208486F3007F0290 /* YZFPasswordModel.swift */; };
-		FC7ABFB02084870A007F0290 /* YZFPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFAF2084870A007F0290 /* YZFPasswordViewModel.swift */; };
-		FC7ABFB22084879D007F0290 /* YZFPasswordTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFB12084879D007F0290 /* YZFPasswordTableView.swift */; };
-		FC7AC0202084A453007F0290 /* YZFTableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AC01F2084A453007F0290 /* YZFTableViewProtocol.swift */; };
-		FC7AC0232084A7FE007F0290 /* YZFBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AC0222084A7FE007F0290 /* YZFBaseModel.swift */; };
-		FC7AC02A2084AC38007F0290 /* YZFPasswordDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AC0292084AC38007F0290 /* YZFPasswordDetailVC.swift */; };
-		FCBFC177207F60FB006CE942 /* YZFPasswordListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFC176207F60FB006CE942 /* YZFPasswordListVC.swift */; };
+		FC434B422085CDF400853BAB /* PasswordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC434B412085CDF400853BAB /* PasswordDetailView.swift */; };
+		FC434B442085CE8800853BAB /* PasswordDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC434B432085CE8800853BAB /* PasswordDetailViewModel.swift */; };
+		FC434B462085D9F400853BAB /* SelectTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC434B452085D9F400853BAB /* SelectTypeCell.swift */; };
+		FC5950812072105800882A8A /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5950802072105800882A8A /* MainTableViewCell.swift */; };
+		FC772FC3208D858400205D7B /* InputTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC772FC2208D858400205D7B /* InputTypeCell.swift */; };
+		FC7ABFAC208486A4007F0290 /* PasswordListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFAB208486A4007F0290 /* PasswordListCell.swift */; };
+		FC7ABFAE208486F3007F0290 /* PasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFAD208486F3007F0290 /* PasswordModel.swift */; };
+		FC7ABFB02084870A007F0290 /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFAF2084870A007F0290 /* PasswordViewModel.swift */; };
+		FC7ABFB22084879D007F0290 /* PasswordTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7ABFB12084879D007F0290 /* PasswordTableView.swift */; };
+		FC7AC0202084A453007F0290 /* TableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AC01F2084A453007F0290 /* TableViewProtocol.swift */; };
+		FC7AC0232084A7FE007F0290 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AC0222084A7FE007F0290 /* BaseModel.swift */; };
+		FC7AC02A2084AC38007F0290 /* PasswordDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AC0292084AC38007F0290 /* PasswordDetailVC.swift */; };
+		FC80296820A179800023797D /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80296720A179800023797D /* Operators.swift */; };
+		FC80296F20A17F5B0023797D /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80296E20A17F5B0023797D /* Form.swift */; };
+		FC80297320A1829B0023797D /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80297220A1829B0023797D /* BaseRow.swift */; };
+		FC80297520A185560023797D /* SelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80297420A185560023797D /* SelectCell.swift */; };
+		FC80297720A18AA60023797D /* BaseSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80297620A18AA60023797D /* BaseSectionView.swift */; };
+		FCBFC177207F60FB006CE942 /* PasswordListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFC176207F60FB006CE942 /* PasswordListVC.swift */; };
 		FCBFC1992080B3AD006CE942 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBFC1972080B3AD006CE942 /* icon@2x.png */; };
 		FCBFC19A2080B3AD006CE942 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBFC1982080B3AD006CE942 /* icon@3x.png */; };
 		FCD3C719206A2D4E006CB6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C718206A2D4E006CB6A9 /* AppDelegate.swift */; };
@@ -28,30 +34,36 @@
 		FCD3C721206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C71F206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodeld */; };
 		FCD3C723206A2D4E006CB6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD3C722206A2D4E006CB6A9 /* Assets.xcassets */; };
 		FCD3C726206A2D4E006CB6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD3C724206A2D4E006CB6A9 /* LaunchScreen.storyboard */; };
-		FCD3C732206A3153006CB6A9 /* YZFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C731206A3153006CB6A9 /* YZFBaseViewController.swift */; };
-		FCD3C734206A31AA006CB6A9 /* YZFMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C733206A31AA006CB6A9 /* YZFMainVC.swift */; };
-		FCD3C737206A3209006CB6A9 /* YZFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C736206A3209006CB6A9 /* YZFNavigationController.swift */; };
-		FCD3C7E2206C92A0006CB6A9 /* YZFMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C7E1206C92A0006CB6A9 /* YZFMainTableView.swift */; };
-		FCD3C7E4206C92D2006CB6A9 /* YZFMainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C7E3206C92D2006CB6A9 /* YZFMainModel.swift */; };
-		FCD3C7E6206C92E3006CB6A9 /* YZFMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C7E5206C92E3006CB6A9 /* YZFMainViewModel.swift */; };
+		FCD3C732206A3153006CB6A9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C731206A3153006CB6A9 /* BaseViewController.swift */; };
+		FCD3C734206A31AA006CB6A9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C733206A31AA006CB6A9 /* MainVC.swift */; };
+		FCD3C737206A3209006CB6A9 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C736206A3209006CB6A9 /* MainNavigationController.swift */; };
+		FCD3C7E2206C92A0006CB6A9 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C7E1206C92A0006CB6A9 /* MainTableView.swift */; };
+		FCD3C7E4206C92D2006CB6A9 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C7E3206C92D2006CB6A9 /* MainModel.swift */; };
+		FCD3C7E6206C92E3006CB6A9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD3C7E5206C92E3006CB6A9 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03BE23729776E0F8E5D182C5 /* Pods-YZFPasswordManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZFPasswordManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZFPasswordManagement/Pods-YZFPasswordManagement.release.xcconfig"; sourceTree = "<group>"; };
 		0573252EA11C5F1248B96174 /* Pods_YZFPasswordManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZFPasswordManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3104ED5D2D78279CF77CF075 /* Pods-YZFPasswordManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZFPasswordManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZFPasswordManagement/Pods-YZFPasswordManagement.debug.xcconfig"; sourceTree = "<group>"; };
-		FC434B412085CDF400853BAB /* YZFPasswordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordDetailView.swift; sourceTree = "<group>"; };
-		FC434B432085CE8800853BAB /* YZFPasswordDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordDetailViewModel.swift; sourceTree = "<group>"; };
-		FC434B452085D9F400853BAB /* YZFSelectTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFSelectTypeCell.swift; sourceTree = "<group>"; };
-		FC5950802072105800882A8A /* YZFMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainTableViewCell.swift; sourceTree = "<group>"; };
-		FC7ABFAB208486A4007F0290 /* YZFPasswordListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordListCell.swift; sourceTree = "<group>"; };
-		FC7ABFAD208486F3007F0290 /* YZFPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordModel.swift; sourceTree = "<group>"; };
-		FC7ABFAF2084870A007F0290 /* YZFPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordViewModel.swift; sourceTree = "<group>"; };
-		FC7ABFB12084879D007F0290 /* YZFPasswordTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordTableView.swift; sourceTree = "<group>"; };
-		FC7AC01F2084A453007F0290 /* YZFTableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFTableViewProtocol.swift; sourceTree = "<group>"; };
-		FC7AC0222084A7FE007F0290 /* YZFBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFBaseModel.swift; sourceTree = "<group>"; };
-		FC7AC0292084AC38007F0290 /* YZFPasswordDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordDetailVC.swift; sourceTree = "<group>"; };
-		FCBFC176207F60FB006CE942 /* YZFPasswordListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFPasswordListVC.swift; sourceTree = "<group>"; };
+		FC434B412085CDF400853BAB /* PasswordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetailView.swift; sourceTree = "<group>"; };
+		FC434B432085CE8800853BAB /* PasswordDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetailViewModel.swift; sourceTree = "<group>"; };
+		FC434B452085D9F400853BAB /* SelectTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTypeCell.swift; sourceTree = "<group>"; };
+		FC5950802072105800882A8A /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		FC772FC2208D858400205D7B /* InputTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTypeCell.swift; sourceTree = "<group>"; };
+		FC7ABFAB208486A4007F0290 /* PasswordListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListCell.swift; sourceTree = "<group>"; };
+		FC7ABFAD208486F3007F0290 /* PasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordModel.swift; sourceTree = "<group>"; };
+		FC7ABFAF2084870A007F0290 /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
+		FC7ABFB12084879D007F0290 /* PasswordTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTableView.swift; sourceTree = "<group>"; };
+		FC7AC01F2084A453007F0290 /* TableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewProtocol.swift; sourceTree = "<group>"; };
+		FC7AC0222084A7FE007F0290 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		FC7AC0292084AC38007F0290 /* PasswordDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetailVC.swift; sourceTree = "<group>"; };
+		FC80296720A179800023797D /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		FC80296E20A17F5B0023797D /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		FC80297220A1829B0023797D /* BaseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRow.swift; sourceTree = "<group>"; };
+		FC80297420A185560023797D /* SelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCell.swift; sourceTree = "<group>"; };
+		FC80297620A18AA60023797D /* BaseSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSectionView.swift; sourceTree = "<group>"; };
+		FCBFC176207F60FB006CE942 /* PasswordListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListVC.swift; sourceTree = "<group>"; };
 		FCBFC1972080B3AD006CE942 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		FCBFC1982080B3AD006CE942 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
 		FCD3C715206A2D4E006CB6A9 /* YZFPasswordManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZFPasswordManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,12 +74,12 @@
 		FCD3C722206A2D4E006CB6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCD3C725206A2D4E006CB6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCD3C727206A2D4E006CB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCD3C731206A3153006CB6A9 /* YZFBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFBaseViewController.swift; sourceTree = "<group>"; };
-		FCD3C733206A31AA006CB6A9 /* YZFMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainVC.swift; sourceTree = "<group>"; };
-		FCD3C736206A3209006CB6A9 /* YZFNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFNavigationController.swift; sourceTree = "<group>"; };
-		FCD3C7E1206C92A0006CB6A9 /* YZFMainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainTableView.swift; sourceTree = "<group>"; };
-		FCD3C7E3206C92D2006CB6A9 /* YZFMainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainModel.swift; sourceTree = "<group>"; };
-		FCD3C7E5206C92E3006CB6A9 /* YZFMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZFMainViewModel.swift; sourceTree = "<group>"; };
+		FCD3C731206A3153006CB6A9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FCD3C733206A31AA006CB6A9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		FCD3C736206A3209006CB6A9 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		FCD3C7E1206C92A0006CB6A9 /* MainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
+		FCD3C7E3206C92D2006CB6A9 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		FCD3C7E5206C92E3006CB6A9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +114,8 @@
 		FC7ABFA820848601007F0290 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FC7ABFAB208486A4007F0290 /* YZFPasswordListCell.swift */,
-				FC7ABFB12084879D007F0290 /* YZFPasswordTableView.swift */,
+				FC7ABFAB208486A4007F0290 /* PasswordListCell.swift */,
+				FC7ABFB12084879D007F0290 /* PasswordTableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,7 +123,7 @@
 		FC7ABFA920848609007F0290 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FC7ABFAD208486F3007F0290 /* YZFPasswordModel.swift */,
+				FC7ABFAD208486F3007F0290 /* PasswordModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,7 +131,7 @@
 		FC7ABFAA20848611007F0290 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				FC7ABFAF2084870A007F0290 /* YZFPasswordViewModel.swift */,
+				FC7ABFAF2084870A007F0290 /* PasswordViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -127,7 +139,7 @@
 		FC7AC01C2084A171007F0290 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				FC7AC01F2084A453007F0290 /* YZFTableViewProtocol.swift */,
+				FC7AC01F2084A453007F0290 /* TableViewProtocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -135,7 +147,7 @@
 		FC7AC0212084A762007F0290 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FC7AC0222084A7FE007F0290 /* YZFBaseModel.swift */,
+				FC7AC0222084A7FE007F0290 /* BaseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,7 +155,7 @@
 		FC7AC0242084ABAD007F0290 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FC7AC0292084AC38007F0290 /* YZFPasswordDetailVC.swift */,
+				FC7AC0292084AC38007F0290 /* PasswordDetailVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -151,8 +163,9 @@
 		FC7AC0252084ABBB007F0290 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FC434B412085CDF400853BAB /* YZFPasswordDetailView.swift */,
-				FC434B452085D9F400853BAB /* YZFSelectTypeCell.swift */,
+				FC434B412085CDF400853BAB /* PasswordDetailView.swift */,
+				FC434B452085D9F400853BAB /* SelectTypeCell.swift */,
+				FC772FC2208D858400205D7B /* InputTypeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,9 +180,61 @@
 		FC7AC0272084ABCA007F0290 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				FC434B432085CE8800853BAB /* YZFPasswordDetailViewModel.swift */,
+				FC434B432085CE8800853BAB /* PasswordDetailViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC80296620A179590023797D /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				FC80296720A179800023797D /* Operators.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		FC80296920A17B400023797D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FC80296A20A17BE40023797D /* Form */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC80296A20A17BE40023797D /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				FC80296D20A17EAE0023797D /* Views */,
+				FC80296620A179590023797D /* Operators */,
+				FC80296C20A17E590023797D /* Rows */,
+				FC80296B20A17E320023797D /* Sections */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		FC80296B20A17E320023797D /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				FC80297620A18AA60023797D /* BaseSectionView.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		FC80296C20A17E590023797D /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				FC80297220A1829B0023797D /* BaseRow.swift */,
+				FC80297420A185560023797D /* SelectCell.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		FC80296D20A17EAE0023797D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC80296E20A17F5B0023797D /* Form.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		FCBFC172207F6055006CE942 /* Password */ = {
@@ -206,7 +271,7 @@
 		FCBFC175207F6093006CE942 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FCBFC176207F60FB006CE942 /* YZFPasswordListVC.swift */,
+				FCBFC176207F60FB006CE942 /* PasswordListVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -257,6 +322,7 @@
 		FCD3C72D206A30B3006CB6A9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FC80296920A17B400023797D /* Components */,
 				FC7AC0212084A762007F0290 /* Models */,
 				FC7AC01C2084A171007F0290 /* Protocol */,
 				FCD3C735206A31C5006CB6A9 /* NavigationController */,
@@ -289,7 +355,7 @@
 		FCD3C730206A30EE006CB6A9 /* Bases */ = {
 			isa = PBXGroup;
 			children = (
-				FCD3C731206A3153006CB6A9 /* YZFBaseViewController.swift */,
+				FCD3C731206A3153006CB6A9 /* BaseViewController.swift */,
 			);
 			path = Bases;
 			sourceTree = "<group>";
@@ -297,7 +363,7 @@
 		FCD3C735206A31C5006CB6A9 /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				FCD3C736206A3209006CB6A9 /* YZFNavigationController.swift */,
+				FCD3C736206A3209006CB6A9 /* MainNavigationController.swift */,
 			);
 			path = NavigationController;
 			sourceTree = "<group>";
@@ -305,7 +371,7 @@
 		FCD3C7DD206C91E6006CB6A9 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FCD3C733206A31AA006CB6A9 /* YZFMainVC.swift */,
+				FCD3C733206A31AA006CB6A9 /* MainVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -313,7 +379,7 @@
 		FCD3C7DE206C9201006CB6A9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				FCD3C7E5206C92E3006CB6A9 /* YZFMainViewModel.swift */,
+				FCD3C7E5206C92E3006CB6A9 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -321,8 +387,8 @@
 		FCD3C7DF206C920E006CB6A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FCD3C7E1206C92A0006CB6A9 /* YZFMainTableView.swift */,
-				FC5950802072105800882A8A /* YZFMainTableViewCell.swift */,
+				FCD3C7E1206C92A0006CB6A9 /* MainTableView.swift */,
+				FC5950802072105800882A8A /* MainTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -330,7 +396,7 @@
 		FCD3C7E0206C9215006CB6A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FCD3C7E3206C92D2006CB6A9 /* YZFMainModel.swift */,
+				FCD3C7E3206C92D2006CB6A9 /* MainModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -414,11 +480,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YZFPasswordManagement/Pods-YZFPasswordManagement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YZFUIKit/YZFUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YZFUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -450,27 +520,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD3C7E6206C92E3006CB6A9 /* YZFMainViewModel.swift in Sources */,
+				FCD3C7E6206C92E3006CB6A9 /* MainViewModel.swift in Sources */,
 				FCD3C721206A2D4E006CB6A9 /* YZFPasswordManagement.xcdatamodeld in Sources */,
-				FCD3C732206A3153006CB6A9 /* YZFBaseViewController.swift in Sources */,
+				FCD3C732206A3153006CB6A9 /* BaseViewController.swift in Sources */,
 				FCD3C71B206A2D4E006CB6A9 /* ViewController.swift in Sources */,
-				FC7AC02A2084AC38007F0290 /* YZFPasswordDetailVC.swift in Sources */,
-				FCD3C7E2206C92A0006CB6A9 /* YZFMainTableView.swift in Sources */,
-				FC7AC0232084A7FE007F0290 /* YZFBaseModel.swift in Sources */,
-				FC7AC0202084A453007F0290 /* YZFTableViewProtocol.swift in Sources */,
-				FCD3C7E4206C92D2006CB6A9 /* YZFMainModel.swift in Sources */,
-				FC434B422085CDF400853BAB /* YZFPasswordDetailView.swift in Sources */,
-				FC7ABFB22084879D007F0290 /* YZFPasswordTableView.swift in Sources */,
-				FC5950812072105800882A8A /* YZFMainTableViewCell.swift in Sources */,
-				FC7ABFB02084870A007F0290 /* YZFPasswordViewModel.swift in Sources */,
-				FCBFC177207F60FB006CE942 /* YZFPasswordListVC.swift in Sources */,
-				FC7ABFAE208486F3007F0290 /* YZFPasswordModel.swift in Sources */,
-				FC7ABFAC208486A4007F0290 /* YZFPasswordListCell.swift in Sources */,
-				FC434B462085D9F400853BAB /* YZFSelectTypeCell.swift in Sources */,
-				FC434B442085CE8800853BAB /* YZFPasswordDetailViewModel.swift in Sources */,
+				FC7AC02A2084AC38007F0290 /* PasswordDetailVC.swift in Sources */,
+				FC80297320A1829B0023797D /* BaseRow.swift in Sources */,
+				FCD3C7E2206C92A0006CB6A9 /* MainTableView.swift in Sources */,
+				FC7AC0232084A7FE007F0290 /* BaseModel.swift in Sources */,
+				FC7AC0202084A453007F0290 /* TableViewProtocol.swift in Sources */,
+				FCD3C7E4206C92D2006CB6A9 /* MainModel.swift in Sources */,
+				FC80297720A18AA60023797D /* BaseSectionView.swift in Sources */,
+				FC434B422085CDF400853BAB /* PasswordDetailView.swift in Sources */,
+				FC80297520A185560023797D /* SelectCell.swift in Sources */,
+				FC7ABFB22084879D007F0290 /* PasswordTableView.swift in Sources */,
+				FC5950812072105800882A8A /* MainTableViewCell.swift in Sources */,
+				FC7ABFB02084870A007F0290 /* PasswordViewModel.swift in Sources */,
+				FCBFC177207F60FB006CE942 /* PasswordListVC.swift in Sources */,
+				FC7ABFAE208486F3007F0290 /* PasswordModel.swift in Sources */,
+				FC7ABFAC208486A4007F0290 /* PasswordListCell.swift in Sources */,
+				FC434B462085D9F400853BAB /* SelectTypeCell.swift in Sources */,
+				FC80296F20A17F5B0023797D /* Form.swift in Sources */,
+				FC434B442085CE8800853BAB /* PasswordDetailViewModel.swift in Sources */,
 				FCD3C719206A2D4E006CB6A9 /* AppDelegate.swift in Sources */,
-				FCD3C734206A31AA006CB6A9 /* YZFMainVC.swift in Sources */,
-				FCD3C737206A3209006CB6A9 /* YZFNavigationController.swift in Sources */,
+				FC80296820A179800023797D /* Operators.swift in Sources */,
+				FCD3C734206A31AA006CB6A9 /* MainVC.swift in Sources */,
+				FC772FC3208D858400205D7B /* InputTypeCell.swift in Sources */,
+				FCD3C737206A3209006CB6A9 /* MainNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

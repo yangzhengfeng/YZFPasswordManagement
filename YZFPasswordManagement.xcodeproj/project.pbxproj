@@ -23,8 +23,10 @@
 		FC80296820A179800023797D /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80296720A179800023797D /* Operators.swift */; };
 		FC80296F20A17F5B0023797D /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80296E20A17F5B0023797D /* Form.swift */; };
 		FC80297320A1829B0023797D /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80297220A1829B0023797D /* BaseRow.swift */; };
-		FC80297520A185560023797D /* SelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80297420A185560023797D /* SelectCell.swift */; };
+		FC80297520A185560023797D /* SelectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80297420A185560023797D /* SelectRow.swift */; };
 		FC80297720A18AA60023797D /* BaseSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80297620A18AA60023797D /* BaseSectionView.swift */; };
+		FC80299820A2EA100023797D /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80299720A2EA100023797D /* FormView.swift */; };
+		FC80299D20A3150E0023797D /* InputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80299C20A3150E0023797D /* InputRow.swift */; };
 		FCBFC177207F60FB006CE942 /* PasswordListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBFC176207F60FB006CE942 /* PasswordListVC.swift */; };
 		FCBFC1992080B3AD006CE942 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBFC1972080B3AD006CE942 /* icon@2x.png */; };
 		FCBFC19A2080B3AD006CE942 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBFC1982080B3AD006CE942 /* icon@3x.png */; };
@@ -61,8 +63,10 @@
 		FC80296720A179800023797D /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		FC80296E20A17F5B0023797D /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		FC80297220A1829B0023797D /* BaseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRow.swift; sourceTree = "<group>"; };
-		FC80297420A185560023797D /* SelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCell.swift; sourceTree = "<group>"; };
+		FC80297420A185560023797D /* SelectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRow.swift; sourceTree = "<group>"; };
 		FC80297620A18AA60023797D /* BaseSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSectionView.swift; sourceTree = "<group>"; };
+		FC80299720A2EA100023797D /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		FC80299C20A3150E0023797D /* InputRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRow.swift; sourceTree = "<group>"; };
 		FCBFC176207F60FB006CE942 /* PasswordListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListVC.swift; sourceTree = "<group>"; };
 		FCBFC1972080B3AD006CE942 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		FCBFC1982080B3AD006CE942 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
@@ -204,6 +208,8 @@
 		FC80296A20A17BE40023797D /* Form */ = {
 			isa = PBXGroup;
 			children = (
+				FC80299E20A316F10023797D /* Bases */,
+				FC80299620A2E9DE0023797D /* Models */,
 				FC80296D20A17EAE0023797D /* Views */,
 				FC80296620A179590023797D /* Operators */,
 				FC80296C20A17E590023797D /* Rows */,
@@ -215,7 +221,6 @@
 		FC80296B20A17E320023797D /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				FC80297620A18AA60023797D /* BaseSectionView.swift */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -223,8 +228,8 @@
 		FC80296C20A17E590023797D /* Rows */ = {
 			isa = PBXGroup;
 			children = (
-				FC80297220A1829B0023797D /* BaseRow.swift */,
-				FC80297420A185560023797D /* SelectCell.swift */,
+				FC80297420A185560023797D /* SelectRow.swift */,
+				FC80299C20A3150E0023797D /* InputRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -232,9 +237,26 @@
 		FC80296D20A17EAE0023797D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FC80296E20A17F5B0023797D /* Form.swift */,
+				FC80299720A2EA100023797D /* FormView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FC80299620A2E9DE0023797D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC80296E20A17F5B0023797D /* Form.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC80299E20A316F10023797D /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				FC80297620A18AA60023797D /* BaseSectionView.swift */,
+				FC80297220A1829B0023797D /* BaseRow.swift */,
+			);
+			path = Bases;
 			sourceTree = "<group>";
 		};
 		FCBFC172207F6055006CE942 /* Password */ = {
@@ -532,10 +554,12 @@
 				FCD3C7E4206C92D2006CB6A9 /* MainModel.swift in Sources */,
 				FC80297720A18AA60023797D /* BaseSectionView.swift in Sources */,
 				FC434B422085CDF400853BAB /* PasswordDetailView.swift in Sources */,
-				FC80297520A185560023797D /* SelectCell.swift in Sources */,
+				FC80297520A185560023797D /* SelectRow.swift in Sources */,
 				FC7ABFB22084879D007F0290 /* PasswordTableView.swift in Sources */,
+				FC80299D20A3150E0023797D /* InputRow.swift in Sources */,
 				FC5950812072105800882A8A /* MainTableViewCell.swift in Sources */,
 				FC7ABFB02084870A007F0290 /* PasswordViewModel.swift in Sources */,
+				FC80299820A2EA100023797D /* FormView.swift in Sources */,
 				FCBFC177207F60FB006CE942 /* PasswordListVC.swift in Sources */,
 				FC7ABFAE208486F3007F0290 /* PasswordModel.swift in Sources */,
 				FC7ABFAC208486A4007F0290 /* PasswordListCell.swift in Sources */,

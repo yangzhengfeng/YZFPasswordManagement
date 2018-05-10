@@ -14,12 +14,19 @@ class PasswordDetailVC: BaseViewController {
         super.viewDidLoad()
         self.setNavigation()
         
-        self.view.addSubview(self.passwordDetailView)
+        
+        
+        let form = Form(view: self.view)
+        
+//        print("\(form)")
+        
+        
+//        self.view.addSubview(self.passwordDetailView)
     }
     
     private lazy var passwordDetailView:PasswordDetailView = {
         let passwordDetailViewModel: PasswordDetailViewModel = PasswordDetailViewModel()
-        let passwordDetailView = PasswordDetailView(frame:UIScreen.main.bounds,style:.grouped,viewModel:passwordDetailViewModel)
+        let passwordDetailView = PasswordDetailView(frame:UIScreen.main.bounds,viewModel:passwordDetailViewModel)
         passwordDetailView.didSelectDelegate = passwordDetailViewModel
         return passwordDetailView;
     }()

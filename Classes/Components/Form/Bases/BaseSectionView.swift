@@ -6,6 +6,17 @@
 //  Copyright © 2018年 Dylan. All rights reserved.
 //
 
+
+
+import Foundation
+
+
+class BaseSection {
+    
+}
+
+
+
 import UIKit
 
 class BaseSectionView: UITableViewHeaderFooterView {
